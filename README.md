@@ -23,19 +23,25 @@ Processing Steps:
    
    3.5 Code for generating .pkl files: Place `solve_labeled_mocap.py` in the `\soma-main\src\tutorials\` directory and execute it.
 
-5. Generate joints, betas, trans, pose_body, and root_orient:
+4. Generate joints, betas, trans, pose_body, and root_orient:
+   
    4.1 Set up SMPL-X， following the link: https://github.com/vchoutas/smplx.git
+   
    4.2 Code: Place `parameter_gen.py` in the `\smplx-main\` directory and execute it.
 
-6. Generate Mesh:
+5. Generate Mesh:
    5.1 Code: Place `obj_gen.py` in the `\smplx-main\` directory and execute it.
 
-7. Temporal calibration of Vicon and RGB-D:
+6. Temporal calibration of Vicon and RGB-D:
+   
    6.1 Align the first frame: findFirstFrame.py
+   
    6.2 Align the joints, betas, trans, pose_body, and root_orient with each frame of RGB-D: parameterCut.py
 
-8. Visualization:
+7. Visualization:
+   
    7.1 Visualize Mesh: Use Blender software, import vis_obj.py to run
+   
    7.2 Generate Video, visualize RBG, Depth, joints, raw data：video_gen.py
 
 The processed data is available at:
