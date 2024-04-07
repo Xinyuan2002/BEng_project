@@ -44,6 +44,8 @@ Processing Steps:
    
    7.2 Generate Video, visualize RBG, Depth, joints, raw data：video_gen.py
 
+   7.3 Visualize point cloud: vis_2d.py
+
 The processed data is available at:
 link: https://pan.baidu.com/s/141DZK7DxPUk9ByLgurkBMw
 code: izhp
