@@ -49,3 +49,7 @@ Processing Steps:
 The processed data is available at:
 link: https://pan.baidu.com/s/141DZK7DxPUk9ByLgurkBMw
 code: izhp
+
+SOMA mesh at: 
+link：https://pan.baidu.com/s/16-UvBKfo-kDrHrKGd5tXYg?pwd=xdo6 
+code：xdo6 
